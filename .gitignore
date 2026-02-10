@@ -1,0 +1,39 @@
+# File: perpusrlo/.gitignore
+
+# Uploaded Files
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Config Files (sensitive)
+src/config/database.php
+
+# Vendor (if using Composer)
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Cache
+cache/
+temp/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Environment files
+.env
+.env.local
